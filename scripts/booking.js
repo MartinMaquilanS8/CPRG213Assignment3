@@ -56,7 +56,7 @@ half_day.addEventListener('click', function(){
     full_day.classList.remove('clicked');
     costperday = 20;
     recalculate();
-})
+});
 
 // when the full-day button is clicked, the daily rate is set back to $35, the clicked class is added to "full" and removed from "half", and the total cost is recalculated.
 
@@ -65,7 +65,7 @@ full_day.addEventListener('click', function(){
     half_day.classList.remove('clicked');
     costperday = 35;
     recalculate();
-})
+});
 
 /********* calculate *********/
 // when a calculation is needed, set the innerHTML of the calculated-cost element to the appropriate value
